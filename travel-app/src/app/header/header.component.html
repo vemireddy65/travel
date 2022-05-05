@@ -1,0 +1,48 @@
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-paper-plane"></i> travel </a>
+
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="search here..." id="searchBox">
+        <label for="searchBox" class="fas fa-search"></label>
+    </form>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn" (click)="search()"></div>
+        <div class="fas fa-moon" id="theme-btn" (click)="theam()"></div>
+        <div class="fas fa-user" id="login-btn" (click)="login()" ></div>
+        <div class="fas fa-bars" id="menu-btn" (click)="onclick ()"></div>
+    </div>
+
+    <nav class="navbar" (click)="list()">
+        <a href="#home">home</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#pricing">pricing</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <form action="" class="login-form">
+
+        <div class="inputBox">
+            <span>username</span>
+            <input type="text" placeholder="enter your name">
+        </div>
+
+        <div class="inputBox">
+            <span>password</span>
+            <input type="password" placeholder="enter your password">
+        </div>
+
+        <div class="remember">
+            <input type="checkbox" name="" id="login-remember">
+            <label for="login-remember">remember me</label>
+        </div>
+
+        <input type="submit" class="btn" value="login">
+
+    </form>
+
+</header>
